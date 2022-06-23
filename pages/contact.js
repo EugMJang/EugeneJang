@@ -4,14 +4,14 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider'
 
-export default function Index() {
+export default function Contact() {
     return (
         <Container maxWidth="lg" 
                    sx={{
                         mt: 4
                    }}>
             <Box>
-                <Typography variant='h4' component='h2'>Home</Typography>
+                <Typography variant='h4' component='h2'>Contact me</Typography>
                 <Divider sx={{borderBottomWidth: 2}}/>
             </Box>
         </Container>
