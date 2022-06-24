@@ -1,0 +1,4 @@
+“TV Show” Rating Similarity
+https://github.com/EugMJang/-TV-Show-rating-similiarity
+Nov 2021-Dec 2021
+Implemented BFS and Dijkstra’s Algorithm using C++ to compare rating differences spanning over 10,000 users on MyAnimeList.com and designed Force-Directed Graph visualization

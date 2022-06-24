@@ -1,0 +1,5 @@
+Yelp 411.0
+https://github.com/EugMJang/Yelp-411.0
+Jan 2022-May 2022
+Deployed a MySQL Database to store over 10,000 rows of business data with proper database design techniques and utilized triggers to update the data when rows are added/updated/deleted
+Built a web app and REST API with React.js and Express to interact with the MySQL database and allow users to easily update and view businesses and reviews

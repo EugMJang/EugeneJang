@@ -1,0 +1,4 @@
+PokéWeaknesses
+https://github.com/EugMJang/PokeWeaknesses
+Jul 2021
+Enhanced user’s experience of pre-existing Pokémon battle simulator by retrieving the names of each Pokémon via web scraping and displaying type effectiveness of each Pokémon through the use of a preexisting REST API

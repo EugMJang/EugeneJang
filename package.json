@@ -16,6 +16,7 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
+    "fs": "^0.0.1-security",
     "next": "latest",
     "prop-types": "latest",
     "react": "latest",

@@ -1,0 +1,4 @@
+Covid-20 Android App
+https://github.com/EugMJang/Covid-20
+Sep 2020-Dec 2020
+Collaborated with a team of 6 engineers to develop an Android Application utilizing Google Maps API and COVID-19 API to retrieve user location and display total number of COVID-19 in real-time locations for contact tracing
