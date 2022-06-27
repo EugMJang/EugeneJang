@@ -19,7 +19,7 @@ const theme = createTheme({
     typography: {
         h1: {
             fontFamily: "Shadows Into Light",
-            fontSize: 90
+            fontSize: 60
         },
         h2: {
             fontFamily: "Open Sans",
