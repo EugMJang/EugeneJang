@@ -11,12 +11,12 @@ export default function Navbar() {
             <AppBar position='sticky'>
                 <Container maxWidth="xl">
                     <Toolbar sx={{pt: 8, pb: 3}}>
-                        <Typography variant='h3' component='h1' sx={{flexGrow: 1}}>
+                        <Typography variant='h1' component='h1' sx={{flexGrow: 1}}>
                             <Link href='/' color='inherit' underline='none'>
                                 Eugene Jang
                             </Link>
                         </Typography>
-                        <Box sx={{pt: 2}}>
+                        <Box sx={{pt: 4}}>
                             <Button sx={{px: 2}} color='inherit'><Link href='https://github.com/EugMJang' target='_blank' color='inherit' underline='none'>Github</Link></Button>
                             <Button sx={{px: 2}} color='inherit'><Link href='https://www.linkedin.com/in/eugjang123/' target='_blank' color='inherit' underline='none'>LinkedIn</Link></Button>
                             <Button sx={{px: 2}} color='inherit'><Link href='/resume' color='inherit' underline='none'>Resume</Link></Button>

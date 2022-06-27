@@ -22,7 +22,7 @@ export default function Project({data}) {
             <List>
                 {data.desc.map((desc) => {
                     return (
-                        <ListItem>
+                        <ListItem key={desc}>
                             <ListItemIcon>
                                 <ChevronRightIcon />
                             </ListItemIcon>
