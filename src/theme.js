@@ -1,5 +1,9 @@
 import { createTheme } from '@mui/material/styles';
 
+const def = createTheme();
+
+const { breakpoints } = def
+
 // Create a theme instance.
 const theme = createTheme({
     palette: {
@@ -19,7 +23,10 @@ const theme = createTheme({
     typography: {
         h1: {
             fontFamily: "Shadows Into Light",
-            fontSize: 60
+            fontSize: 70,
+            [breakpoints.down('md')]: {
+                fontSize: 50
+            }
         },
         h2: {
             fontFamily: "Open Sans",
