@@ -28,16 +28,16 @@ export default function Index({data}) {
             <Divider sx={{borderBottomWidth: 2}}/>
             <Box sx={{mt: 2}}>
                 <Avatar sx={{height:200, width:200, ml: 2, float: 'right'}}>
-                    <Image src='/profile.jpg' layout='fill'></Image>
+                    <Image alt="Eugene Jang" src='/profile.jpg' layout='fill'></Image>
                 </Avatar>
                 <Typography paragraph>
-                    &emsp;&emsp;&emsp;Hello! My name is Eugene Jang (Korean: 장유진), currently based in Chicago, 
+                    &emsp;&emsp;&emsp;Hello! My name is Eugene Jang (Korean: 장유진), currently based in Chicago,
                     and I am a senior at the University of Illinois at Urbana Champaign studying Computer Science.
                     I am currently looking for any full-time Software Engineering opportunities for Fall of 2023!
                     <br />
-                    &emsp;&emsp;&emsp;It's amazing to see so many parts of our world running on decades of discoveries
+                    &emsp;&emsp;&emsp;It{"'"}s amazing to see so many parts of our world running on decades of discoveries
                     in Computer Science, and as someone who is newly joining the workforce, I want to use my expertise to
-                    help make even one person's life easier.
+                    help make even one person{"'"}s life easier.
                     <br />
                     &emsp;&emsp;&emsp;Outside of school I am the vice president of Gah Rahk Mah Dang (GRMD, 가락마당), which is a
                     Korean drumming club at UIUC. Besides that, I like to cook, explore the outdoors, and play the violin.
