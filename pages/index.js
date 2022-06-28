@@ -10,7 +10,6 @@ import Project from '../components/Project'
 import Link from '../components/Link';
 
 export async function getStaticProps() {
-    console.log(getProjectData())
     return {
         props: {
             data: getProjectData(),

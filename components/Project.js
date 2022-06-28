@@ -6,7 +6,6 @@ import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import Link from './Link';
 
 export default function Project({data}) {
-    console.log(data);
     return (
         <Box>
             <Box sx={{display: 'flex', mt: 2}}>
@@ -52,12 +51,13 @@ export default function Project({data}) {
                         </ListItem>
                     )
                 })}
+                
                 <ListItem>
-                    <Button variant='contained' sx={{mb: 2}}>
-                        <Link href={data.url} target='_blank' passHref color='inherit' underline='none'>
-                            Click here to view!
-                        </Link>
-                    </Button>
+                    <Link href={data.url} target='_blank' passHref color='inherit' underline='none'>
+                        <Button variant='contained'>
+                                Click here to view!
+                        </Button>
+                    </Link>
                 </ListItem>
             </List>
         </Box>

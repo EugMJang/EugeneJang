@@ -14,6 +14,11 @@ export default function Resume() {
                 <Typography variant='h4' component='h2'>Resume</Typography>
                 <Divider sx={{borderBottomWidth: 2}}/>
             </Box>
+            <Box display='flex' sx={{justifyContent: 'center', mt: 2}}>
+                <iframe src="/Resume.pdf" 
+                    width="800" 
+                    height="600"></iframe>
+            </Box>
         </Container>
     );
 }

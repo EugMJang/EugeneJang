@@ -27,10 +27,10 @@ export default function Navbar() {
                         xs: 'none',
                         md: 'block'
                     }}}>
-                        <Button sx={{px: 2}} color='inherit'><Link href='https://github.com/EugMJang' target='_blank' color='inherit' underline='none'>Github</Link></Button>
-                        <Button sx={{px: 2}} color='inherit'><Link href='https://www.linkedin.com/in/eugjang123/' target='_blank' color='inherit' underline='none'>LinkedIn</Link></Button>
-                        <Button sx={{px: 2}} color='inherit'><Link href='/resume' color='inherit' underline='none'>Resume</Link></Button>
-                        <Button sx={{px: 2}} color='inherit'><Link href='/contact' color='inherit' underline='none'>Contact me</Link></Button>
+                        <Link href='https://github.com/EugMJang' target='_blank' color='inherit' underline='none' passHref><Button sx={{px: 2}} color='inherit'>Github</Button></Link>
+                        <Link href='https://www.linkedin.com/in/eugjang123/' target='_blank' color='inherit' underline='none' passHref><Button sx={{px: 2}} color='inherit'>LinkedIn</Button></Link>
+                        <Link href='/resume' color='inherit' underline='none' passHref><Button sx={{px: 2}} color='inherit'>Resume</Button></Link>
+                        <Link href='/contact' color='inherit' underline='none' passHref><Button sx={{px: 2}} color='inherit'>Contact me</Button></Link>
                     </Box>
                     <Box sx={{pt: 4, display: {
                         xs: 'block',
