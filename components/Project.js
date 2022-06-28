@@ -10,20 +10,40 @@ export default function Project({data}) {
     return (
         <Box>
             <Box sx={{display: 'flex', mt: 2}}>
-                <Box sx={{display: 'flex', flexGrow: 1}}>
+                <Box sx={{flexGrow: 1}}>
                     <Typography variant='h5' component='h4'>
                         {data.name}
                     </Typography>
                 </Box>
-                <Typography sx={{mt: 0.5}}paragraph>
+                <Typography sx={{
+                    mt: 0.5,
+                    display: {
+                        xs: 'none',
+                        md: 'block'
+                    }
+                    }} paragraph>
                     {data.date}
                 </Typography>
             </Box>
+            <Typography sx={{
+                mt: 0.5,
+                display: {
+                    xs: 'block',
+                    md: 'none'
+                }
+                }} paragraph>
+                {data.date}
+            </Typography>
             <List>
                 {data.desc.map((desc) => {
                     return (
                         <ListItem key={desc}>
-                            <ListItemIcon>
+                            <ListItemIcon sx={{
+                                display: {
+                                    xs: 'none',
+                                    md: 'block'
+                                }
+                            }}>
                                 <ChevronRightIcon />
                             </ListItemIcon>
                             <ListItemText>

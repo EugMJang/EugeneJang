@@ -3,7 +3,7 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from './Link';
-import { AppBar, Button, List, ListItem, ListItemText, Toolbar } from '@mui/material';
+import { AppBar, Button, List, ListItem, ListItemButton, Toolbar } from '@mui/material';
 import Drawer from '@mui/material/Drawer';
 import MenuIcon from '@mui/icons-material/Menu';
 
@@ -47,29 +47,34 @@ export default function Navbar() {
                                 width: 200,
                             }}>
                             <List>
-                                <ListItem>
-                                    <ListItemText>
-                                        Github
-                                    </ListItemText>
-                                </ListItem>
-
-                                <ListItem>
-                                    <ListItemText>
-                                        LinkedIn
-                                    </ListItemText>
-                                </ListItem>
-
-                                <ListItem>
-                                    <ListItemText>
-                                        Resume
-                                    </ListItemText>
-                                </ListItem>
-
-                                <ListItem>
-                                    <ListItemText>
-                                        Contact me
-                                    </ListItemText>
-                                </ListItem>
+                                <Link href='https://github.com/EugMJang' target='_blank' color='inherit' underline='none' passHref>
+                                    <ListItem>
+                                            <ListItemButton>
+                                                Github
+                                            </ListItemButton>
+                                    </ListItem>
+                                </Link>
+                                <Link href='https://www.linkedin.com/in/eugjang123/' target='_blank' color='inherit' underline='none'>
+                                    <ListItem>
+                                        <ListItemButton>
+                                            LinkedIn
+                                        </ListItemButton>
+                                    </ListItem>
+                                </Link>
+                                <Link href='/resume' color='inherit' underline='none'>
+                                    <ListItem>
+                                        <ListItemButton>
+                                            Resume
+                                        </ListItemButton>
+                                    </ListItem>
+                                </Link>
+                                <Link href='/contact' color='inherit' underline='none'>
+                                    <ListItem>
+                                        <ListItemButton>
+                                            Contact me
+                                        </ListItemButton>
+                                    </ListItem>
+                                </Link>
                             </List>
                             </Box>
                         </Drawer>
