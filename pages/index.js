@@ -39,7 +39,7 @@ export default function Index({data}) {
                     help make even one person{"'"}s life easier.
                     <br />
                     &emsp;&emsp;&emsp;Outside of school I am the vice president of Gah Rahk Mah Dang (GRMD, 가락마당), which is a
-                    Korean drumming club at UIUC. Besides that, I like to cook, explore the outdoors, and play the violin.
+                    Korean drumming club at UIUC. Besides that, I like to cook, play badminton, and listen to music.
                     <br />
                     &emsp;&emsp;&emsp;Please take a look at some of the side projects I have done over the years!
                 </Typography>
@@ -58,6 +58,18 @@ export default function Index({data}) {
                 <Typography paragraph>
                     This website was made with Next.js. Please click 
                     on <Link href="https://github.com/EugMJang/EugeneJang" target="_blank">this link</Link> to view the Github.
+                </Typography>
+                <Typography variant='h6'>
+                    Contact me
+                </Typography>
+                <Typography paragraph>
+                    Mobile: 1(847) 420-4989
+                    <br />
+                    Email: eug.jang123@gmail.com
+                    <br />
+                    1841 Central Ave
+                    <br />
+                    Northbrook, IL 60062
                 </Typography>
             </Box>
         </Container>

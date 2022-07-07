@@ -27,10 +27,10 @@ export default function Navbar() {
                         xs: 'none',
                         md: 'block'
                     }}}>
+                        <Link href='/' color='inherit' underline='none' passHref><Button sx={{px: 2}} color='inherit'>Home</Button></Link>
                         <Link href='https://github.com/EugMJang' target='_blank' color='inherit' underline='none' passHref><Button sx={{px: 2}} color='inherit'>Github</Button></Link>
                         <Link href='https://www.linkedin.com/in/eugjang123/' target='_blank' color='inherit' underline='none' passHref><Button sx={{px: 2}} color='inherit'>LinkedIn</Button></Link>
                         <Link href='/resume' color='inherit' underline='none' passHref><Button sx={{px: 2}} color='inherit'>Resume</Button></Link>
-                        <Link href='/contact' color='inherit' underline='none' passHref><Button sx={{px: 2}} color='inherit'>Contact me</Button></Link>
                     </Box>
                     <Box sx={{pt: 4, display: {
                         xs: 'block',
@@ -65,13 +65,6 @@ export default function Navbar() {
                                     <ListItem>
                                         <ListItemButton>
                                             Resume
-                                        </ListItemButton>
-                                    </ListItem>
-                                </Link>
-                                <Link href='/contact' color='inherit' underline='none'>
-                                    <ListItem>
-                                        <ListItemButton>
-                                            Contact me
                                         </ListItemButton>
                                     </ListItem>
                                 </Link>

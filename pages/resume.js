@@ -11,7 +11,7 @@ export default function Resume() {
                         mt: 4
                    }}>
             <Box>
-                <Typography variant='h4' component='h2'>Resume</Typography>
+                <Typography variant='h2' component='h2'>Resume</Typography>
                 <Divider sx={{borderBottomWidth: 2}}/>
             </Box>
             <Box display='flex' sx={{justifyContent: 'center', mt: 2}}>

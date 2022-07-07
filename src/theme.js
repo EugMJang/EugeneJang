@@ -30,11 +30,17 @@ const theme = createTheme({
         },
         h2: {
             fontFamily: "Open Sans",
-            fontSize: 60
+            fontSize: 60,
+            [breakpoints.down('md')]: {
+                fontSize: 35
+            }
         },
         h3: {
             fontFamily: "Open Sans",
-            fontSize: 40
+            fontSize: 40,
+            [breakpoints.down('md')]: {
+                fontSize: 30
+            }
         }
     }
 });
