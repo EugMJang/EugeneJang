@@ -47,6 +47,13 @@ export default function Navbar() {
                                 width: 200,
                             }}>
                             <List>
+                                <Link href='/' color='inherit' underline='none' passHref>
+                                    <ListItem>
+                                            <ListItemButton>
+                                                Home
+                                            </ListItemButton>
+                                    </ListItem>
+                                </Link>
                                 <Link href='https://github.com/EugMJang' target='_blank' color='inherit' underline='none' passHref>
                                     <ListItem>
                                             <ListItemButton>
